@@ -92,7 +92,7 @@ class Game{
                 }
             
                  if (frameCount % 20 === 0) {
-                     fruits = createSprite(random(100, 1000), -20, 100, 100);
+                     fruits = createSprite(random(100, 1000), -50, 100, 100);
                      fruits.velocityY = 6;
                      fruits.lifetime=150;
                      var rand = Math.round(random(1,5));
